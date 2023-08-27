@@ -1,0 +1,62 @@
+.background {
+  background-image: url("/images/background-header.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.shadow {
+  box-shadow: 0px 10px 40px -7px rgba(55, 63, 104, 0.35);
+}
+
+.hover {
+  &:hover {
+    color: #ad1fea;
+  }
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.dropdown_label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.dropdown_select {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 10px 30px 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 14px;
+  color: #333;
+  width: 200px;
+  cursor: pointer;
+}
+
+.dropdown_select:focus {
+  outline: none;
+  border-color: #4661e6;
+}
+
+.dropdown_select::after {
+  content: "▼";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: #999;
+  pointer-events: none;
+}
+
+/* Optional: Style the dropdown options */
+.dropdown_select option {
+  background-color: #fff;
+  color: #333;
+}

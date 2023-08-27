@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// container
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// buttons
+
+.button1 {
+  background-color: #ad1fea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f2f4fe;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #8d0fe5;
+  }
+}
+
+.button2 {
+  background-color: #4661e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f2f4fe;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  border-radius: 10px;
+  font-weight: 700;
+  line-height: normal;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #7c91f9;
+  }
+}
+
+.button3 {
+  background-color: #3a4374;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f2f4fe;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  border-radius: 10px;
+  font-weight: 700;
+  line-height: normal;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #656ea3;
+  }
+}
+
+.button4 {
+  background-color: #d73737;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f2f4fe;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #e98888;
+  }
+}
+
+.btn {
+  background-color: #f2f4ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4661e6;
+  border-radius: 10px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #cfd7ff;
+  }
+
+  &:active {
+    background-color: #4661e6;
+    color: #fff;
+  }
+}
+
+.sort_btn {
+  &:hover {
+    color: #f2f4fe;
+  }
+}
+
+.goback {
+  background-color: #373f68;
+  color: #f2f4fe;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+// Typography
+
+h1 {
+  color: #3a4374;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.333px;
+}
+
+h2 {
+  color: #3a4374;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.25px;
+}
+
+h3 {
+  color: #3a4374;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.25px;
+}
+
+h4 {
+  color: #3a4374;
+  font-family: Jost;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.194px;
+}
+
+.text_lg {
+  color: #3a4374;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text_md {
+  color: #3a4374;
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text_sm {
+  color: #3a4374;
+  font-family: Jost;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text_sm_bold {
+  color: #3a4374;
+  font-family: Jost;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
